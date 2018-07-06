@@ -8,10 +8,12 @@
 Сборка
 ========
 
+Нам понадобится сборка только модуля services
+
 ```
 cd services
 
 mvn clean install -B -DskipTests -Pdistribution
 ```
 
-Готовый jar файл после сборки должен находиться в services/target
+Готовый jar файл *keycloak-services-<version>.jar* после сборки должен находиться в services/target
